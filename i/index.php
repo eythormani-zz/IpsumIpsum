@@ -6,7 +6,7 @@
 	ssga_track( 'UA-YOUR_NUMBER', 'yoursite.com', '/page.php' )
 
 	// Class initialized
-	$ipsumHandler = new imageIpsum('./originals/', './resized/', 'Ballmer');
+	$ipsumHandler = new imageIpsum('./originals/', './resized/', 'CHANGE_THIS_TO_YOUR_IPSUM_NAME');
 	
 	if (isset($_GET['x']) && isset($_GET['y'])) {
 		$width = min($_GET['x'], 2000);
